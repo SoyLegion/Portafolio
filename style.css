@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: #070c0f;
+    color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.brand {
+    margin-top: -7px;
+    color: yellow;
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menu a:hover {
+    background-color: yellow;
+    color: #070c0f;
+    transition: else-in 0.4s;
+    cursor: pointer;
+}
+
+
+/*Main*/
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.info_content span {
+    color: yellow;
+}
+
+.picture {
+    width: 250px;
+    border: 2px solid yellow;
+    border-radius: 150px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+
+/*About*/
+.about {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    align-items: center;
+    background-color: #070c0f;
+    color: #fff;
+    gap: 50px;
+    
+}
+
+.about_info h2 {
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: yellow;
+    
+}
+
+.about, .redes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.robot {
+    width: 250px;
+    padding-bottom: 10px;
+}
+
+/*Skills*/
+.skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    background-color: #070c0f;
+    color: #fff;
+    border: 3px solid yellow;
+    
+}
+
+.skills h2 {
+    font-size: 50px;
+    font-weight: bolder;
+    color: yellow;
+}
+
+.skills_list {
+    display: flex;
+    flex-flow: column;
+    
+}
+
+
+.skills_list li {
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.imgskills {
+    width: 150px;
+}
+
+/*Formación*/
+.formacion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    background-color: #070c0f;
+}
+
+.formacion h2 {
+    font-size: 50px;
+    font-weight: bolder;
+    color: yellow;
+}
+
+.imgFormacion {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+
+/*Contacto*/
+.contacto {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 800px;
+    padding: 20px;
+    background-color: #070c0f;
+    color: #fff;
+    border: 3px solid yellow;
+    
+}
+
+.contacto h2 {
+    font-size: 50px;
+    font-weight: bolder;
+    color: yellow;
+}
+
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    padding-top: 20px;
+    
+}
+
+
+.input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: yellow;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: yellow;
+    transform: scale(1.2);
+}
+
+.footer {
+    width: 100vw;
+    height: 60px;
+    background-color: #070c0f;
+    color: yellow;
+    text-align: center;
+}
+
+.footer p {
+    padding-top: 10px;
+}
